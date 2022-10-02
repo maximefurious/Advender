@@ -1,6 +1,6 @@
 <?php
 session_start();
-$bdd = new PDO('mysql:host=217.182.207.90;dbname=DBuser2','user2', 'Lyceepassword29');
+$bdd = new PDO('mysql:host=...;dbname=...','...', '...');
 if(!$_SESSION['mdp']){
   header('Location: connexion.php');
   exit;
